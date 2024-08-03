@@ -1,6 +1,6 @@
 ﻿namespace PublisherAPI.Models
 {
-    public class BaseModel
+    public abstract class BaseModel
     {
         public DateTime CreatedAt { get; set; }
         public string CreatedBy { get; set; }
